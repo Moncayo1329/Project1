@@ -1,11 +1,7 @@
-window.onresize=screen;
-window.onload = screen;
+window.onresize = updateScreen;
+window.onload = updateScreen;
 
-function screen(){
-myWidth = window.innerWidth;
-
-document.getElementById('size').innerHTML= "Width : " + myWidth + "px";
-
-
-
+function updateScreen() {
+    var myWidth = window.innerWidth;
+    document.getElementById("size").innerHTML = "Width: " + myWidth + "px";
 }
