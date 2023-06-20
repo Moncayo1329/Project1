@@ -1,1 +1,1 @@
-# Project1 Learning about scss
+# Playing and learning Scss
